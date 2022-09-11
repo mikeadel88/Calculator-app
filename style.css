@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(222, 26%, 31%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+    font-family: 'League Spartan', sans-serif;
+    transition: all .1s ease;
+}
+/* Theme 1 style */
+.theme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.theme input{
+    background-color:  hsl(223, 31%, 20%);
+    appearance: none;
+    width: 60px;
+    height: 18px;
+    border-radius: 50px;
+}
+.theme input::-webkit-slider-thumb{
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: hsl(6, 63%, 50%) ;
+    appearance: none;
+}
+.switch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+h3{
+    color: #fff;
+}
+.theme span{
+    color: #fff;
+    font-size: 12px;
+    padding: 0 5px;
+    
+}
+.cal-cody{
+    width: 100%;
+}
+.display{
+    background-color: hsl(224, 36%, 15%);
+    padding: 30px;
+    color: #fff;
+    text-align: end;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.keys{
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap:15px;
+    padding:20px ;
+    background-color:  hsl(223, 31%, 20%);
+    border-radius: 10px;
+
+}
+.cal_keys{
+    font-size: 32px;
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(30, 25%, 89%);
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px hsl(28, 16%, 65%);
+    cursor: pointer;
+}
+.reset_key{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 1px 2px 1px hsl(224, 28%, 35%);
+    color: #fff;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+ .del_key{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 1px 2px 1px hsl(224, 28%, 35%);
+    color: #fff;
+ }
+.equal_key{
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 1px 2px 1px hsl(6, 70%, 34%)    ;
+    color: #fff;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+
+/* Theme 2 style */
+.theme2{
+    background-color:  hsl(0, 0%, 90%);
+
+}
+.theme2 input{
+    background-color: hsl(0, 5%, 81%);
+    appearance: none;
+}
+.theme2 input::-webkit-slider-thumb{
+    background-color: hsl(25, 98%, 40%) ;
+    appearance: none;
+}
+.theme2 h3{
+    color:hsl(60, 10%, 19%);
+}
+.theme2 span{
+    color:hsl(60, 10%, 19%);
+}
+.theme2 .display{
+    background-color: hsl(0, 0%, 93%);
+    color:hsl(60, 10%, 19%); ;
+}
+.theme2 .keys{
+    background-color: hsl(0, 5%, 81%);
+}
+.theme2 .cal_keys{
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 1px 2px 1px hsl(35, 11%, 61%);
+
+}
+.theme2 .equal_key{
+    background-color:  hsl(25, 98%, 40%);
+    box-shadow: 1px 2px 1px hsl(25, 99%, 27%)    ;
+
+}
+.theme2 .reset_key,.theme2 .del_key{
+    color: #fff;
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 1px 2px 1px hsl(224, 28%, 35%);
+
+}
+
+
+
+/* Theme 3 style */
+.theme3{
+    background-color:   hsl(268, 75%, 9%);
+
+}
+.theme3 input{
+    background-color:hsl(268, 71%, 12%);
+    appearance: none;
+}
+.theme3 input::-webkit-slider-thumb{
+    background-color:  hsl(176, 100%, 44%);
+    appearance: none;
+}
+.theme3 h3{
+    color:hsl(52, 100%, 62%);
+}
+.theme3 span{
+    color:hsl(52, 100%, 62%);
+}
+.theme3 .display{
+    background-color:  hsl(268, 71%, 12%);
+    color:hsl(52, 100%, 62%) ;
+}
+.theme3 .keys{
+    background-color:  hsl(268, 71%, 12%);
+}
+.theme3 .cal_keys{
+    background-color: hsl(268, 47%, 21%);
+    color: hsl(52, 100%, 62%);
+    box-shadow: 1px 2px 1px hsl(290, 70%, 36%);
+
+}
+.theme3 .equal_key{
+    color: hsl(198, 20%, 13%);
+    background-color:  hsl(176, 100%, 44%);
+    box-shadow: 1px 2px 1px hsl(177, 92%, 70%)    ;
+
+}
+.theme3 .reset_key,.theme3 .del_key{
+    color: #fff;
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 1px 2px 1px hsl(285, 91%, 52%);
+
+}
+

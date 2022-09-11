@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="cal-body">
+  <div class="theme">
+    <h3>Calc</h3>
+    <div class="switch">
+      <span class="caption">Theme</span>
+      <input type="range" max="3" min="1" value="1" class="button" >
+    </div>
+  </div>
+  <div class="display">
+    0
+  </div>
+  <div class="keys">
+    <button class="cal_keys">7</button>
+    <button class="cal_keys">9</button>
+    <button class="cal_keys">8</button>
+    <button class="cal_keys del_key" data-action="del">DEL</button>
+    <button class="cal_keys">4</button>
+    <button class="cal_keys">5</button>
+    <button class="cal_keys">6</button>
+    <button class="cal_keys " data-action="add">+</button>
+    <button class="cal_keys">1</button>
+    <button class="cal_keys">2</button>
+    <button class="cal_keys">3</button>
+    <button class="cal_keys" data-action="subtract">-</button>
+    <button class="cal_keys" data-action="decimal">.</button>
+    <button class="cal_keys">0</button>
+    <button class="cal_keys" data-action="divide">/</button>
+    <button class="cal_keys" data-action="multiply">X</button>
+    <button class="reset_key cal_keys" data-action="reset">Reset</button>
+    <button class="equal_key cal_keys" data-action="equal">=</button>
+  </div>
+ 
+ 
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
